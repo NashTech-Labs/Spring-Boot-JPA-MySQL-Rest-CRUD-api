@@ -41,12 +41,12 @@ git@github.com:knoldus/Spring-Boot-JPA-MySQL-Rest-CRUD-api.git
 
 – For MySQL:
 
-> # server.port=8083
-> # spring.datasource.url= jdbc:mysql://localhost:3306/<DATABASE_NAME>?useSSL=false
-> # spring.datasource.username= <USERNAME>
-> # spring.datasource.password= <PASSWORD>
-> # spring.jpa.properties.hibernate.dialect= org.hibernate.dialect.MySQL5InnoDBDialect
-> # spring.jpa.hibernate.ddl-auto= update
+> #### server.port=8083
+> #### spring.datasource.url= jdbc:mysql://localhost:3306/<DATABASE_NAME>?useSSL=false
+> #### spring.datasource.username= <USERNAME>
+> #### spring.datasource.password= <PASSWORD>
+> #### spring.jpa.properties.hibernate.dialect= org.hibernate.dialect.MySQL5InnoDBDialect
+> #### spring.jpa.hibernate.ddl-auto= update
 
 ### Hibernate ddl auto (create, create-drop, validate, update)
 * spring.jpa.hibernate.ddl-auto= update
